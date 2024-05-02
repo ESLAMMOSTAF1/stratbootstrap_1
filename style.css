@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caption {
+    position: absolute;
+    top: 60%;
+    color: white;
+}
+
+.cont {
+    width: 200px;
+    position: relative;
+    top: 50%;
+}
+
+.design {
+    background-color: #2c3e50;
+}
+
+.custum {
+    position: absolute;
+    top: 70%;
+    color: white;
+}
+
+.heig {
+    background-color: rgb(26 188 156);
+    height: 100vh;
+}
+
+.port {
+    font-size: 70px;
+    margin-top: 150px;
+}
+
+.about {
+    background-color: rgb(26 188 156);
+    height: 80vh;
+}
+
+.form-floating input.form-control {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    outline: none;
+    border-width: 1px;
+    padding: 50px;
+}
+
+.foot {
+    background-color: #2c3e50;
+}
+
+.icons.one {
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.icons.one i {
+    position: absolute;
+    left: 8px;
+    top: 17%;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.one:hover {
+    background-color: white;
+}
+
+.one i:hover {
+    color: #2c3e50;
+}
+
+.two {
+    position: absolute;
+    left: 523px;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.two i {
+    position: absolute;
+    left: 8px;
+    top: 17%;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.two:hover {
+    background-color: white;
+}
+
+.two i:hover {
+    color: #2c3e50;
+}
+
+.three {
+    position: absolute;
+    left: 43%;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.three i {
+    position: absolute;
+    left: 8px;
+    top: 17%;
+    font-size: 30px;
+    color: aliceblue
+}
+
+.three:hover {
+    background-color: white;
+}
+
+.three i:hover {
+    color: #2c3e50;
+}
+
+.four {
+    position: absolute;
+    left: 47%;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.four i {
+    position: absolute;
+    left: 8px;
+    top: 17%;
+    font-size: 30px;
+    color: aliceblue
+}
+
+.size {
+    width: 300px;
+    margin-left: 80px
+}
+
+.four:hover {
+    background-color: white;
+}
+
+.four i:hover {
+    color: #2c3e50;
+}
+
+.firstofmodal {
+    margin-left: 40%;
+    font-size: 40px;
+}
+
+.imgofmodal {
+    width: 400px;
+    margin-left: 25%;
+}
+
+.endofmodal {
+    margin-right: 45%;
+}
+
+@media (max-width: 767px) {
+    .container-fluid h1 a {
+            font-size: 27px !important;
+            position: absolute;
+            left: -18%;
+            top: 5%;
+        }
+                .caption {
+                    position: absolute;
+                    top: 65%;
+                    left: 24%;
+                }
+        
+                .caption h1 {
+                    font-size: 25px !important;
+                }
+        
+                .col-md-5 img {
+                    width: 60px !important;
+                }
+        
+                .cont {
+                    width: 200px;
+                    position: absolute;
+                    top: 30%;
+                    left: 23%;
+                }
+        
+                .custum {
+                    position: absolute;
+                    top: 66%;
+                    left: 24%;
+                }
+        
+                .about {
+                    height: 120vh;
+                }
+        
+                .about h1 {
+                    color: white;
+                    position: relative;
+                    left: -23%;
+                }
+        
+                .about button {
+                    position: absolute;
+                    left: -15%;
+                    top: 520%;
+                }
+        
+                .last h1 {
+                    position: relative;
+                    left: -15%;
+                }
+        
+                .login input {
+                    padding: 30px !important;
+                }
+        
+                .login textarea {
+                    padding: 30px !important;
+                }
+        
+                .foot .first h3 {
+                    position: absolute;
+                    top: 590%;
+                    left: 44% !important;
+                }
+        
+                .foot .sconde p {
+                    position: absolute;
+                    top: 632%;
+                    left: 20% !important;
+                }
+        
+                .foot .zero h3 {
+                    position: absolute;
+                    left: 20% !important;
+                    top: 625%
+                }
+
+                .icons.one {
+                    position: absolute;
+                    left: 17%;
+                    top: 663%;
+                }
+        
+                .two {
+                    position: absolute;
+                    left: 33%;
+                    top: 659%;
+                }
+        
+                .three {
+                    position: absolute;
+                    left: 49%;
+                    top: 659%;
+                }
+        
+                .four {
+                    position: absolute;
+                    left: 65%;
+                    top: 659%;
+                }
+        
+                .four i {
+                    position: absolute;
+                    left: 8px;
+                    top: 17%;
+                    font-size: 30px;
+                    color: aliceblue
+                }
+        
+                .foot {
+                    height: 100vh !important;
+                }
+        
+                .foot .five h3 {
+                    position: absolute;
+                    top: 656% !important;
+                    left: 18% !important;
+                }
+        
+                .foot .six p {
+                    position: absolute;
+                    top: 680% !important;
+                    left: 20% !important;
+                }
+        
+                .port h1 {
+                    font-size: 55px;
+                    position: absolute;
+                    top: 118%;
+                }
+        
+                .port a {
+                    margin-left: 65%;
+                }
+        
+                .size {
+                    position: relative;
+                    left: -88%;
+                    width: 335px;
+                }
+        
+                .firstofmodal {
+                    margin-left: 16%;
+                    font-size: 35px;
+                }
+        
+                .imgofmodal {
+                    width: 250px;
+                    margin-left: 10%;
+                }
+        
+                .endofmodal {
+                    margin-right: 30% !important;
+                }
+}    
